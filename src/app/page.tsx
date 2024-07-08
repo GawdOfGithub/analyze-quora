@@ -40,7 +40,7 @@ export default function GlareCardDemo() {
 
         />
 
-<p className={cn("font-normal text-4xl text-black mt-16 absolute",roboto.className)}>
+<p className={cn("font-extrabold text-4xl text-black mt- absolute",roboto.className)}>
           Manu Bhardwaj
         </p>
       </GlareCard>
