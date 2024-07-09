@@ -13,6 +13,22 @@ export default function GlareCardDemo() {
 
   return (
     <div className="grid grid-cols-1 md:grid-cols-3 gap-10 max-sm:mt-10 max-sm:ml-10">
+       <Link href="https://quora-data.vercel.app/trend.html">
+      <GlareCard className="flex flex-col items-center justify-center">
+        <Image
+          className="h-full w-full absolute inset-0 object-cover"
+          src="/Hacker.jpeg"
+          alt="hello"
+          height={500}
+          width={500}
+
+        />
+
+<p className={cn("font-extrabold text-4xl text-white ml-20 absolute",roboto.className)}>
+          Trending Questions
+        </p>
+      </GlareCard>
+      </Link>
       <Link href="https://quora-data.vercel.app/Tarangini.html">
            <GlareCard className="flex flex-col items-center justify-center">
           
@@ -45,6 +61,7 @@ export default function GlareCardDemo() {
         </p>
       </GlareCard>
       </Link>
+     
     
     </div>
   );
